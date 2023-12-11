@@ -1,0 +1,36 @@
+Date: 8/12/2023
+Time: 13:26
+Phone Number: +254707394018
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1167.png
+Caption: 
+--------------------
+Date: 8/12/2023
+Time: 13:29
+Phone Number: +254707394018
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1168.png
+Caption: 
+--------------------
+Date: 8/12/2023
+Time: 13:40
+Phone Number: +254707394018
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1168.png
+Caption: 
+--------------------
+Date: 8/12/2023
+Time: 13:51
+Phone Number: +254707394018
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1168.png
+Caption: 
+--------------------
+Date: 8/12/2023
+Time: 13:52
+Phone Number: +254707394018
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1168.png
+Caption: 
+--------------------
+Date: 11/12/2023
+Time: 11:16
+Phone Number: +254707394018
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1168.png
+Caption: 
+--------------------

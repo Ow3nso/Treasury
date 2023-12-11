@@ -1,0 +1,152 @@
+{% for receipts in receipts %}
+<br>
+<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #invoice-POS{
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+  padding:2mm;
+  margin: 0 auto;
+  width: 80mm;
+  background: #FFF;
+  
+  
+::selection {background: #f31544; color: #FFF;}
+::moz-selection {background: #f31544; color: #FFF;}
+h1{
+  font-size: 1.5em;
+  color: #222;
+}
+h2{font-size: .9em;}
+h3{
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 2em;
+}
+p{
+  font-size: .7em;
+  color: #666;
+  line-height: 1.2em;
+}
+ 
+#top, #mid,#bot{ /* Targets all id with 'col-' */
+  border-bottom: 1px solid #EEE;
+}
+
+#top{min-height: 100px;}
+#mid{min-height: 80px;} 
+#bot{ min-height: 50px;}
+
+#top .logo{
+  float: center;
+	height: 60px;
+	width: 60px;
+	background: url(data:image/png;base64,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) no-repeat;
+	background-size: 60px 60px;
+}
+.clientlogo{
+  float: left;
+	height: 60px;
+	width: 60px;
+	background: url(http://michaeltruong.ca/images/client.jpg) no-repeat;
+	background-size: 60px 60px;
+  border-radius: 50px;
+}
+.info{
+  display: block;
+  float:left;
+  margin-left: 0;
+}
+.title{
+  float: right;
+}
+.title p{text-align: right;} 
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+td{
+  padding: 5px 0 5px 15px;
+  border: 1px solid #EEE
+}
+.tabletitle{
+  padding: 5px;
+  font-size: .5em;
+  background: #EEE;
+}
+.service{border-bottom: 1px solid #EEE;}
+.item{width: 80mm;}
+.itemtext{font-size: .5em;}
+
+#legalcopy{
+  margin-top: 5mm;
+}
+
+  
+  
+}
+    </style>
+</head>
+<body>
+    
+  <div id="invoice-POS">
+    
+    <center id="top">
+      <div class="logo"></div>
+      <div class="info"> 
+        <h2>SEVENTH DAY ADVENTIST CHURCH</h2>
+        <h2>CENTRAL KENYA CONFERENCE</h2>
+      </div><!--End Info-->
+    </center><!--End InvoiceTop-->
+    
+    <div id="mid">
+      <div class="info">
+        <h2>Contact Info</h2>
+        <p> 
+            Name : {{receipts.name}}</br>
+            Email   : JohnDoe@gmail.com</br>
+        </p>
+      </div>
+    </div><!--End Invoice Mid-->
+    
+    <div id="bot">
+
+					<div id="table">
+						<table>
+							<tr class="tabletitle">
+								<td class="item"><h2>Item</h2></td>
+								<td class="Rate"><h2>Amount</h2></td>
+							</tr>
+
+							<tr class="service">
+								<td class="tableitem"><p class="itemtext">{{receipts.giving}}</p></td>
+								<td class="tableitem"><p class="itemtext">{{receipts.amount}}</p></td>
+							</tr>
+
+							<tr class="tabletitle">
+								<td></td>
+								<td class="Rate"><h2>Total</h2></td>
+								<td class="payment"><h2>$3,644.25</h2></td>
+							</tr>
+
+						</table>
+					</div><!--End Table-->
+
+					<div id="legalcopy">
+						<p class="legal"><strong>2 Corinthians 9:6-8</strong>Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver. 
+						</p>
+					</div>
+
+				</div><!--End InvoiceBot-->
+  </div><!--End Invoice-->
+
+</body>
+</html>
+
+{% endfor %}

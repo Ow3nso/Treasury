@@ -1,0 +1,54 @@
+Date: 8/12/2023
+Time: 10:43
+Phone Number: +254720582397
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1168.png
+Caption: 
+--------------------
+Date: 8/12/2023
+Time: 10:43
+Phone Number: +254720582397
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1170.png
+Caption: 
+--------------------
+Date: 8/12/2023
+Time: 10:43
+Phone Number: +254720582397
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1172.png
+Caption: 
+--------------------
+Date: 8/12/2023
+Time: 10:49
+Phone Number: +254720582397
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1168.png
+Caption: 
+--------------------
+Date: 8/12/2023
+Time: 10:50
+Phone Number: +254720582397
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1170.png
+Caption: 
+--------------------
+Date: 8/12/2023
+Time: 10:50
+Phone Number: +254720582397
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1172.png
+Caption: 
+--------------------
+Date: 11/12/2023
+Time: 8:18
+Phone Number: +254720582397
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1168.png
+Caption: 
+--------------------
+Date: 11/12/2023
+Time: 8:19
+Phone Number: +254720582397
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1170.png
+Caption: 
+--------------------
+Date: 11/12/2023
+Time: 8:19
+Phone Number: +254720582397
+Image: /home/ow3nso/projects/python/django/excel3/receipts/1172.png
+Caption: 
+--------------------
