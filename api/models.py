@@ -110,3 +110,7 @@ class Treasury(models.Model):
         return self.name
 
     
+class Excel_Document(models.Model):
+    date = models.DateTimeField(blank=False)
+    details = models.CharField(max_length=10000, blank=False)
+    amount = models.IntegerField()
